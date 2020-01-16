@@ -2,32 +2,30 @@
 
 # Seata Samples
 
-Samples for Seata. This project contains several sub-projects, each of which is an example of integration with other projects.
-                                
+SEATA的例子. 该项目包含几个子项目，每个子项目都是与其他项目集成的一个示例。            
 [![Build Status](https://travis-ci.org/seata/seata-samples.svg?branch=master)](https://travis-ci.org/seata/seata-samples) 
 ![license](https://img.shields.io/github/license/seata/seata-samples.svg)
 
-## Related repository
+## 相关仓库
 
-* [Seata](https://github.com/seata/seata) - The Seata core project
+* [Seata](https://github.com/seata/seata) - Seata 核心项目
 
-## Sub-projects
+## 子项目
 
-* [spring-cloud-alibaba-samples](https://github.com/seata/seata-samples/tree/master/spring-cloud-alibaba-samples) - Spring Cloud Alibaba + Nacos + Dubbo + OpenFeign + Sentinel + Seata 
-* [dubbo](https://github.com/seata/seata-samples/tree/master/dubbo) - Integration example of [Seata](https://github.com/seata/seata) and [Apache Dubbo](https://github.com/apache/dubbo)
-* [springboot](https://github.com/seata/seata-samples/tree/master/springboot) - Integration example of [Seata](https://github.com/seata/seata) and [Spring Boot](https://github.com/spring-projects/spring-boot/) 
-* [nacos](https://github.com/seata/seata-samples/tree/master/nacos) - Integration example of [Seata](https://github.com/alibaba/fescar)、 [Apache Dubbo](https://github.com/apache/dubbo) and [Alibaba Nacos](https://github.com/alibaba/nacos/) 
-* [springboot-dubbo-seata](https://github.com/seata/seata-samples/tree/master/springboot-dubbo-seata) - Integration example of [Seata](https://github.com/seata/seata)、 [Apache Dubbo](https://github.com/apache/dubbo) and [Spring Boot](https://github.com/spring-projects/spring-boot/) 
-* [nutzboot-dubbo-seata](https://github.com/seata/seata-samples/tree/master/nutzboot-dubbo-fescar) - Integration example of [Seata](https://github.com/seata/seata)、 [Apache Dubbo](https://github.com/apache/dubbo) and [NutzBoot](https://github.com/nutzam/nutzboot/) 
-* [springcloud-jpa-seata](https://github.com/seata/seata-samples/tree/master/springcloud-jpa-seata) - Integration example of [Seata](https://github.com/Seata) and [Spring Cloud](https://github.com/spring-cloud) and JPA
-* [spring-boot-multiple-datasource](./multiple-datasource) - Integration example of [Seata](https://github.com/Seata) and [Spring Boot](https://github.com/spring-projects/spring-boot/) with multiple datasource and MyBatis
-* [springboot-mybatis](https://github.com/seata/seata-samples/tree/master/springboot-mybatis) - Integration example of [Seata](https://github.com/Seata) and [Spring Boot](https://github.com/spring-projects/spring-boot/) and [Mybatis](https://github.com/mybatis/mybatis-3) 
-* [api](https://github.com/seata/seata-samples/tree/master/api) - Non-Spring environment uses api to build Seata distributed transactions
-* [spring-boot-multiple-datasource-mybatis-plus](./multiple-datasource-mybatis-plus) - Integration example of [Seata](https://github.com/Seata) and [Spring Boot](https://github.com/spring-projects/spring-boot/) with multiple datasource and [MyBatisPlus](https://github.com/baomidou/mybatis-plus)
-* [springcloud-nacos-seata](https://github.com/seata/seata-samples/tree/master/springcloud-nacos-seata) - Integration example of [Seata](https://github.com/Seata) and [Spring Cloud](https://github.com/spring-cloud) and [Alibaba Nacos](https://github.com/alibaba/nacos/)
-* [saga](https://github.com/seata/seata-samples/tree/master/saga) - Saga mode distributed transaction demo projects
-* [dubbo-multiple-datasource-mybatis-plus](https://github.com/seata/seata-samples/tree/master/dubbo-multiple-datasource-mybatis-plus) - Integration example of [Seata](https://github.com/Seata) and [Spring Boot](https://github.com/spring-projects/spring-boot/)  - [Apache Dubbo](https://github.com/apache/dubbo) with [dynamic](https://github.com/baomidou/dynamic-datasource-spring-boot-starter) multiple datasource and [MyBatisPlus](https://github.com/baomidou/mybatis-plus) and [Alibaba Nacos](https://github.com/alibaba/nacos/)
+* spring-cloud-alibaba-samples -Spring Cloud阿里巴巴+ Nacos + Dubbo + OpenFeign + Sentinel + Seata
+* dubbo - Seata和Apache Dubbo的集成示例
+* springboot - Seata和Spring Boot的集成示例
+* nacos - Seata，Apache Dubbo和Alibaba Nacos的集成示例
+* springboot-dubbo-seata - Seata，Apache Dubbo和Spring Boot的集成示例
+* nutzboot-dubbo-seata - Seata，Apache Dubbo和NutzBoot的集成示例
+* springcloud-jpa-seata - Seata与Spring Cloud和JPA的集成示例
+* spring-boot-multiple-datasource-具有多个数据源和MyBatis 的Seata和Spring Boot的集成示例
+* springboot-的MyBatis -集成例如Seata和springboot和MyBatis的
+* API -非Spring环境中使用API构建Seata分布式事务
+* spring-boot-multiple-datasource-mybatis- plus-具有多个数据源和MyBatisPlus的Seata和Spring Boot集成示例
+* springcloud-nacos-seata - Seata和Spring Cloud与阿里巴巴Nacos的集成示例
+* saga -saga模式分布式交易演示项目
+* dubbo-multiple-datasource-mybatis-plus - Seata和Spring Boot的集成示例 - 具有动态多个数据源以及MyBatisPlus和Alibaba Nacos的Apache Dubbo
+## 指南
 
-## Guide 
-
-- [Quick integration with Spring Cloud](./doc/quick-integration-with-spring-cloud.md)
+- [与Spring Cloud快速集成](./doc/quick-integration-with-spring-cloud.md)
